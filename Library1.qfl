@@ -1,0 +1,8 @@
+﻿
+'@Description Cette fonction affiche une boîte de message Hello World.
+Function MyFunction()
+	
+	'MsgBox "Bonjour"
+	Browser("Auchan. Promos, infos_2").Page("Auchan. Promos, infos").WebEdit("text").Set "tomate"
+End Function
+
